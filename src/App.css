@@ -1,38 +1,119 @@
-.App {
+body{
+  background-color: black;
+}
+#navbarSupportedContent{
+  display: flex;
+  justify-content: space-between;
+}
+.bi-crosshair2{
+  color: red;
+}
+.slocation,.bi-caret-down-fill{
+  color: white;
+}
+.btn-cart-counter{
+  color: white;
+  border: 2px solid white;
+}
+.navbar-brand img{
+  width: 50px;
+  height: 50px;
+}
+.nav-order-btn{
+  color: white;
+  background-color:dimgrey;
+  font-size: 700;
+  text-transform: uppercase;
+  
+}
+.navbar .nav-order-btn:hover{
+  color: white;
+  background-color: dimgray;
+}
+.col-md-2 h3{
+  color: white;
+  padding-left: 14%;
+  
+}
+.col-md-2 img{
+  border: 2px solid red;
+  border-radius: 50%;
+  
+}
+.categoriecard{
+  height: 270px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.card{
+  height: 100%;
+}
+.footer{
+  color: white;
+}
+.card-title{
+  text-decoration: none;
+  
+  color: red;
+}
+ Footer.css
+.kfc-footer {
+  background-color: #2f2828;
+  color: #fff;
+  padding: 40px 0;
+  width: 100%;
+}
+
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+} 
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-info {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer-logo img{
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer-info p {
+  font-size: 14px;
+  margin: 10px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-logo img{
+  margin-left: 40%;
+} 
+.form2{
+  background-color:dimgray;
 }
